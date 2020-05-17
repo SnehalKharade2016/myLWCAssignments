@@ -1,0 +1,5 @@
+<aura:component>
+<div> This is my new world...!!</div>
+<aura:attribute name="MyFirstAttribute" type="Integer"/>
+<aura:attribute name="MySecondAttribute" type="Integer"/>
+</aura:component>	

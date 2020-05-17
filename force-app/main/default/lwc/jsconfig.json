@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/explorIteratorInLwc": [
+                "explorIteratorInLwc/explorIteratorInLwc.js"
+            ],
+            "c/exploreDecorator": [
+                "exploreDecorator/exploreDecorator.js"
+            ],
+            "c/exploreFolderStructure": [
+                "exploreFolderStructure/exploreFolderStructure.js"
+            ],
+            "c/exploreGetterSetter": [
+                "exploreGetterSetter/exploreGetterSetter.js"
+            ],
+            "c/exploreHelloWorld": [
+                "exploreHelloWorld/exploreHelloWorld.js"
+            ],
+            "c/taxCalculator": [
+                "taxCalculator/taxCalculator.js"
+            ],
+            "c/taxCalculatorChild": [
+                "taxCalculatorChild/taxCalculatorChild.js"
+            ],
+            "c/selectMusic": [
+                "selectMusic/selectMusic.js"
+            ],
+            "c/selectArtist": [
+                "selectArtist/selectArtist.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

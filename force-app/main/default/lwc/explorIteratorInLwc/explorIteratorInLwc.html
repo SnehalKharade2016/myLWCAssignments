@@ -1,0 +1,13 @@
+<template>
+    <ul>
+        <template for:each={employeeData} for:item="employeeRec">
+            <li key={employeeRec.Id}> {employeeRec.Name} works in {employeeRec.Company} </li>
+        </template>
+    </ul>
+
+    <ul>
+        <template iterator:it={employeeData}>
+            <li key={it.value.Id}>{it.value.Name} works in {it.value.Company}</li>
+        </template>
+    </ul>
+</template>
